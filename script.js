@@ -1,4 +1,4 @@
-const API_KEY = '7ef3a788abe94aac86dfd09d52e55ed2';
+const API_KEY = "7ef3a788abe94aac86dfd09d52e55ed2";
 const newsContainer = document.getElementById('news-container');
 const searchInput = document.getElementById('search');
 const categoryButtons = document.querySelectorAll('.categories button');
@@ -52,3 +52,4 @@ function displayArticles(articles) {
     newsContainer.appendChild(card);
   });
 }
+
